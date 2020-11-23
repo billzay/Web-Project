@@ -1,0 +1,71 @@
+.smooth{
+    display: block;
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    text-align: center;
+    width: 10em;
+    height:10em;
+    text-decoration: none;
+    font-size:bold;
+    padding: 6px 0 6px 0;
+    transition-property: background-color;
+    transition-property: height;
+    transition-duration: 1s;
+    letter-spacing: 3px;
+}
+.smooth:hover, .smooth:focus{
+    background-color:yellow;
+    height: 20em;
+    letter-spacing: 5px;
+}
+
+p{
+    display: block;
+    background-color: violet;
+    color: white;
+    border-radius: 2em;
+    text-align: center;
+    width: 10em;
+    text-decoration: none;
+    font-size:bold;
+    padding: 6px 0 6px 0;
+    transition-property: background-color;
+    transition-property: width;
+    transition-duration: 1s;
+    letter-spacing: 3px;
+}
+p:hover, p:focus{
+    background-color:crimson;
+    color:orange;
+    width: 20em;
+    letter-spacing: 5px;
+}
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function:ease-in;
+}
+.ease-out{
+    transition-timing-function:ease-out;
+}
+.ease-in-out{
+    transition-timing-function:ease-in-out;
+}
+
+img{
+    width: 10em;
+    height:10em;
+    /*transition-property:width ;
+    transition-property: height;*/
+    transform-origin:left top;
+    transition-duration: 1s;
+}
+img:hover{
+    transform:rotate(13deg);
+    
+}
